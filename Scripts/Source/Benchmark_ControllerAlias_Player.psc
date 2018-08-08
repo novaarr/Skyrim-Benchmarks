@@ -1,4 +1,4 @@
-scriptname Benchmark_Alias_Player extends ReferenceAlias hidden
+scriptname Benchmark_ControllerAlias_Player extends ReferenceAlias hidden
 
 ActorBase property BenchmarkNPC auto
 ReferenceAlias property BenchyAlias auto
@@ -7,7 +7,10 @@ Actor PlayerRef
 
 event OnInit()
   PlayerRef = GetActorReference()
-  BenchyAlias.ForceRefTo(PlayerRef.PlaceAtMe(BenchmarkNPC))
+
+  if PlayerRef ; dude, what?    
+    BenchyAlias.ForceRefTo(PlayerRef.PlaceAtMe(BenchmarkNPC))
+  endIf
 endEvent
 
 event OnPlayerLoadGame()
