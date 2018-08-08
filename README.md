@@ -8,20 +8,19 @@
 ### Player Reference Retrieval
 
 ```
-[08/08/2018 - 04:14:46PM] Benchmarks - Player Reference Retrieval - Static: Finished 1 iterations in 0.066999 seconds
-[08/08/2018 - 04:14:46PM] Benchmarks - Player Reference Retrieval - Dynamic (Soft): Finished 1 iterations in 0.016001 seconds
-[08/08/2018 - 04:14:50PM] Benchmarks - Player Reference Retrieval - Dynamic (Hard): Finished 1 iterations in 0.517998 seconds
+[08/08/2018 - 05:40:40PM] Benchmarks (StaticPlayerReference): finished in 0.016998 seconds (n=1)
+[08/08/2018 - 05:40:40PM] Benchmarks (SoftPlayerReference): finished in 0.033997 seconds (n=1)
+[08/08/2018 - 05:40:40PM] Benchmarks (HardPlayerReference): finished in 0.033001 seconds (n=1)
 
 
-[08/08/2018 - 04:14:51PM] Benchmarks - Player Reference Retrieval - Static: Finished 50 iterations in 1.053001 seconds
-[08/08/2018 - 04:14:52PM] Benchmarks - Player Reference Retrieval - Dynamic (Soft): Finished 50 iterations in 0.716999 seconds
-[08/08/2018 - 04:14:54PM] Benchmarks - Player Reference Retrieval - Dynamic (Hard): Finished 50 iterations in 1.432999 seconds
+[08/08/2018 - 05:40:41PM] Benchmarks (StaticPlayerReference): finished in 0.785999 seconds (n=50)
+[08/08/2018 - 05:40:41PM] Benchmarks (SoftPlayerReference): finished in 0.787998 seconds (n=50)
+[08/08/2018 - 05:40:42PM] Benchmarks (HardPlayerReference): finished in 1.420002 seconds (n=50)
 
+[08/08/2018 - 05:40:43PM] Benchmarks (StaticPlayerReference): finished in 1.425003 seconds (n=100)
+[08/08/2018 - 05:40:43PM] Benchmarks (SoftPlayerReference): finished in 1.426003 seconds (n=100)
+[08/08/2018 - 05:40:45PM] Benchmarks (HardPlayerReference): finished in 2.729000 seconds (n=100)
 
-[08/08/2018 - 04:14:55PM] Benchmarks - Player Reference Retrieval - Static: Finished 100 iterations in 0.982998 seconds
-[08/08/2018 - 04:14:56PM] Benchmarks - Player Reference Retrieval - Dynamic (Soft): Finished 100 iterations in 1.140999 seconds
-[08/08/2018 - 04:14:58PM] Benchmarks - Player Reference Retrieval - Dynamic (Hard): Finished 100 iterations in 2.431999 seconds
-
-[08/08/2018 - 04:15:15PM] Benchmarks - Player Reference Retrieval - Static: Finished 1000 iterations in 16.516003 seconds
-[08/08/2018 - 04:15:31PM] Benchmarks - Player Reference Retrieval - Dynamic (Soft): Finished 1000 iterations in 16.513996 seconds
-[08/08/2018 - 04:16:04PM] Benchmarks - Player Reference Retrieval - Dynamic (Hard): Finished 1000 iterations in 32.634995 seconds```
+[08/08/2018 - 05:40:58PM] Benchmarks (StaticPlayerReference): finished in 15.507000 seconds (n=1000)
+[08/08/2018 - 05:40:58PM] Benchmarks (SoftPlayerReference): finished in 15.424000 seconds (n=1000)
+[08/08/2018 - 05:41:17PM] Benchmarks (HardPlayerReference): finished in 32.219002 seconds (n=1000)```
