@@ -7,7 +7,8 @@
 
 ### Player Reference Retrieval
 
-```[08/08/2018 - 04:14:46PM] Benchmarks - Player Reference Retrieval - Static: Finished 1 iterations in 0.066999 seconds
+```
+[08/08/2018 - 04:14:46PM] Benchmarks - Player Reference Retrieval - Static: Finished 1 iterations in 0.066999 seconds
 [08/08/2018 - 04:14:46PM] Benchmarks - Player Reference Retrieval - Dynamic (Soft): Finished 1 iterations in 0.016001 seconds
 [08/08/2018 - 04:14:50PM] Benchmarks - Player Reference Retrieval - Dynamic (Hard): Finished 1 iterations in 0.517998 seconds
 
